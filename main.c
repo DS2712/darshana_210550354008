@@ -7,7 +7,7 @@ int main()
 {
  int pfd[2];
  pid_t id;
- int buff[size];
+ int buff[Size];
 
  pipe(pfd);
  id=fork();
@@ -17,7 +17,7 @@ int main()
     close(pfd[1]);
     read(pfd[0],"8",4);
     close(pfd[0]);
-    read
+    read;
  }
  else
  {
